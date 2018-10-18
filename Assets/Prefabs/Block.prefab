@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212525478257038406}
   - component: {fileID: 61591236907027472}
   - component: {fileID: 114301373316974338}
+  - component: {fileID: 114550838711203850}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1228981070916688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 2.0000005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,6 +80,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: b6d05af3c64cb4afb808b846fcadf362, type: 3}
+--- !u!114 &114550838711203850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228981070916688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18fe9cfc707c74a7f8a590ab2719f42b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakableBlocks: 0
 --- !u!212 &212525478257038406
 SpriteRenderer:
   m_ObjectHideFlags: 1
