@@ -227,6 +227,11 @@ Prefab:
       propertyPath: m_Name
       value: Block (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 114301373316974338, guid: b87cdc4ec5cb549c490bcf5cbeaa46fd,
+        type: 2}
+      propertyPath: blockSparklesVFX
+      value: 
+      objectReference: {fileID: 100000, guid: df07fae73f48b49c6b52da6b16d4640b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87cdc4ec5cb549c490bcf5cbeaa46fd, type: 2}
   m_IsPrefabAsset: 0
