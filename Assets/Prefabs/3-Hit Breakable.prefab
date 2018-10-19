@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114301373316974338}
   - component: {fileID: 114550838711203850}
   m_Layer: 0
-  m_Name: 2-Hit Breakable
+  m_Name: 3-Hit Breakable
   m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,8 +81,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: b6d05af3c64cb4afb808b846fcadf362, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: df07fae73f48b49c6b52da6b16d4640b, type: 2}
-  maxHits: 2
-  hitSprites: []
+  maxHits: 3
+  hitSprites:
+  - {fileID: 21300000, guid: 9ffd6f1dc186c4933b46f28beda66ae7, type: 3}
+  - {fileID: 21300000, guid: 4f50876a95dda43e99a1d1d962edd02a, type: 3}
   timesHit: 0
 --- !u!114 &114550838711203850
 MonoBehaviour:
